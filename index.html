@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <title>Barbie</title>
+</head>
+<body>
+    <header class="cabecalho">
+        </div>
+        <div class="const">
+            <a href="#"><img src="img/cor_roxo.png" alt="" class="conts_img"></a>
+            <a href="#"><img src="img/bag_roxo.png" alt="" class="conts_img"></a>
+            <a href="#"><img src="img/pers_roxo.png" alt="" class="conts_img"></a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <input type="search" name="" class="banner_search">
+    </section>
+    <section class="carro">
+        <h2 class="carro_titulo">
+            Barbie e seus filmes
+        </h2>
+        <div class="swiper">
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/slide/1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/slide/2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/slide/3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/slide/4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/slide/5.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/slide/6.jpg" alt=""></div>
+              ...
+            </div>
+
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="card">
+                <div class="card_detail">
+                    <div class="detail">
+                    </div>
+                </div>
+            </div>
+          
+          </div>
+          
+    </section>
+    <section class="topicos"> 
+        <h2 class="topico_titulo">
+            <ul class="lista">
+                <li class="item">Barbie</li>
+                <li class="item">Ken</li>
+            </ul>
+        </h2>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 100,
+        slidesPerView: 3,
+        pagination:{
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+});
+    </script>
+</body>
+</html>

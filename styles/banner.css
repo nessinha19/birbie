@@ -1,0 +1,29 @@
+.banner{
+    background-image: linear-gradient(rgb(231, 113, 206), rgb(255, 97, 234));
+    color: whitesmoke;
+    text-align: center;
+    padding: 3em 3em;
+}
+
+.banner_titulo{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.banner_search{
+    background-color:rgb(64, 115, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    border-radius: 7px;
+    padding: 1em;
+
+}
+
+.banner_search::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(236, 93, 255);
+    text-align: center;
+    background: url("/img/lupe_rosa.png") no-repeat;
+    background-position: 1em;
+}
